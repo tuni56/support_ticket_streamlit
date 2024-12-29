@@ -1,92 +1,130 @@
-Support Ticket Web App
-A simple, interactive support ticket management system built with Streamlit, designed to streamline the process of tracking and resolving support requests.
+<h1 align="center">Support Ticket Web App</h1>
+<p align="center">
+  A simple, interactive support ticket management system built with <strong>Streamlit</strong>, designed to streamline the process of tracking and resolving support requests.
+</p>
 
-Features
-Create, update, and manage support tickets
-Intuitive, user-friendly interface
-Real-time data handling with Pandas
-🛠️ Prerequisites
-Python 3.8+ installed
-Virtualenv for environment management
-VSCode for editing and running the project
-🚀 Getting Started
-Step 1: Clone the Repository
-bash
-Copiar código
-git clone https://github.com/yourusername/support-ticket-app.git  
-cd support-ticket-app  
-Step 2: Set Up a Virtual Environment
-Create a virtual environment:
+---
 
-bash
-Copiar código
-python -m venv venv  
-Activate the virtual environment:
+<h2>✨ Features</h2>
+<ul>
+  <li>Create, update, and manage support tickets</li>
+  <li>Intuitive, user-friendly interface</li>
+  <li>Real-time data handling with <strong>Pandas</strong></li>
+</ul>
 
-On Windows:
-bash
-Copiar código
-.\venv\Scripts\activate  
-On macOS/Linux:
-bash
-Copiar código
-source venv/bin/activate  
-Install dependencies:
+---
 
-bash
-Copiar código
-pip install -r requirements.txt  
-Step 3: Configure Virtual Environment in VSCode
-Open the project folder in VSCode.
+<h2>🛠️ Prerequisites</h2>
+<ul>
+  <li><strong>Python 3.8+</strong> installed</li>
+  <li><strong>Virtualenv</strong> for environment management</li>
+  <li><strong>VSCode</strong> for editing and running the project</li>
+</ul>
 
-bash
-Copiar código
-code .  
-Install the Python extension for VSCode (if not already installed).
+---
 
-Select the virtual environment as the interpreter:
+<h2>🚀 Getting Started</h2>
 
-Press Ctrl+Shift+P (or Cmd+Shift+P on macOS) to open the Command Palette.
-Search for and select Python: Select Interpreter.
-Choose the virtual environment located in the venv folder.
+<h3>Step 1: Clone the Repository</h3>
+<pre>
+<code>
+git clone https://github.com/yourusername/support-ticket-app.git
+cd support-ticket-app
+</code>
+</pre>
 
-##💻 Run the Application
-Activate the virtual environment if it’s not already active:
+<h3>Step 2: Set Up a Virtual Environment</h3>
+<ol>
+  <li>Create a virtual environment:
+    <pre><code>python -m venv venv</code></pre>
+  </li>
+  <li>Activate the virtual environment:
+    <ul>
+      <li>On <strong>Windows</strong>:
+        <pre><code>.\venv\Scripts\activate</code></pre>
+      </li>
+      <li>On <strong>macOS/Linux</strong>:
+        <pre><code>source venv/bin/activate</code></pre>
+      </li>
+    </ul>
+  </li>
+  <li>Install dependencies:
+    <pre><code>pip install -r requirements.txt</code></pre>
+  </li>
+</ol>
 
-bash
-Copiar código
-.\venv\Scripts\activate   # Windows  
-source venv/bin/activate  # macOS/Linux  
-Run the Streamlit app:
+<h3>Step 3: Configure Virtual Environment in VSCode</h3>
+<ol>
+  <li>Open the project folder in VSCode:
+    <pre><code>code .</code></pre>
+  </li>
+  <li>Install the <strong>Python</strong> extension for VSCode (if not already installed).</li>
+  <li>Select the virtual environment as the interpreter:
+    <ul>
+      <li>Press <code>Ctrl+Shift+P</code> (or <code>Cmd+Shift+P</code> on macOS) to open the Command Palette.</li>
+      <li>Search for and select <strong>Python: Select Interpreter</strong>.</li>
+      <li>Choose the virtual environment located in the <code>venv</code> folder.</li>
+    </ul>
+  </li>
+</ol>
 
-bash
-Copiar código
-streamlit run app.py  
-Open your browser and navigate to http://localhost:8501 to access the app.
+---
 
-##📜 Project Structure
-bash
-Copiar código
-support-ticket-app/  
-│  
-├── app.py               # Main Streamlit app  
-├── requirements.txt     # Project dependencies  
-├── data/                # Folder for storing ticket data  
-├── venv/                # Virtual environment folder (not included in repo)  
-└── README.md            # Project documentation  
+<h2>💻 Run the Application</h2>
+<ol>
+  <li>Activate the virtual environment if it’s not already active:
+    <ul>
+      <li>On <strong>Windows</strong>:
+        <pre><code>.\venv\Scripts\activate</code></pre>
+      </li>
+      <li>On <strong>macOS/Linux</strong>:
+        <pre><code>source venv/bin/activate</code></pre>
+      </li>
+    </ul>
+  </li>
+  <li>Run the Streamlit app:
+    <pre><code>streamlit run app.py</code></pre>
+  </li>
+  <li>Open your browser and navigate to <code>http://localhost:8501</code> to access the app.</li>
+</ol>
 
-##🤝 Contributing
-Fork the repository
-Create a new feature branch:
-bash
-Copiar código
-git checkout -b feature-name  
-Commit your changes:
-bash
-Copiar código
-git commit -m "Add feature-name"  
-Push the branch:
-bash
-Copiar código
-git push origin feature-name  
-Open a pull request
+---
+
+<h2>📜 Project Structure</h2>
+<pre>
+<code>
+support-ticket-app/
+│
+├── app.py               # Main Streamlit app
+├── requirements.txt     # Project dependencies
+├── data/                # Folder for storing ticket data
+├── venv/                # Virtual environment folder (not included in repo)
+└── README.md            # Project documentation
+</code>
+</pre>
+
+---
+
+<h2>🤝 Contributing</h2>
+<ol>
+  <li>Fork the repository</li>
+  <li>Create a new feature branch:
+    <pre><code>git checkout -b feature-name</code></pre>
+  </li>
+  <li>Commit your changes:
+    <pre><code>git commit -m "Add feature-name"</code></pre>
+  </li>
+  <li>Push the branch:
+    <pre><code>git push origin feature-name</code></pre>
+  </li>
+  <li>Open a pull request</li>
+</ol>
+
+---
+
+<p align="center"><strong>Happy coding! 😊</strong></p>
+
+
+
+
+
